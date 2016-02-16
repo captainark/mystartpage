@@ -42,6 +42,8 @@ form {
     font-style: normal;
 }
 
+/* TODO figure out how to make this to work */ 
+
 #weather {
   width: 500px;
   height: 40px;
