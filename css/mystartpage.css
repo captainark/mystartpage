@@ -6,46 +6,50 @@
 html, body {
   margin:  0;
   padding:  0;
-  background:  #fdf6e3; }
+  background:  #002b36; }
 
 .row {
-  text-align:center; margin-top: 250px; }
+  text-align:center;
+  margin-top:  250px; }
 
 .row .column {
-  display: inline; letter-spacing:0.5em; }
+  display: inline;
+  letter-spacing:  0.5em; }
  
 .row .column a {
-  font-size: 250%; color:rgba(0,0,0,0) }
+  font-size: 250%;
+  color:  rgba(0,0,0,0) }
 
-.row .column a:not(:hover)
-  { opacity:.5; transition: opacity .5s; }
+.row .column a:not(:hover) {
+  opacity: 0.8;
+  transition: opacity .5s; }
 
 form {
   width: 100%;
   margin: auto;
   padding: 0px;
   text-align: center;
-  background: #fdf6e3;
+  background: #002b36;
   position: relative;
   top: 60px; }
 
 .search {
   width: 440px;
-  height: 20px;
+  height: 25px;
   margin-right: 0px;
   padding: 5px;
-  background: #eee8d5;
+  background: #002b36;
   font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  color: #657b83;
-  opacity: .5;
-  border: 2.5px solid #657b83; }
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: #eee8d5;
+  opacity: 0.8;
+  border: 2.5px solid #073642; }
   .search:hover {
-    border: 2.5px solid #657b83; }
+    border: 2.5px solid #073642; }
   .search:focus {
     outline: none;
-    border: 2.5px solid #657b83; }
+    border: 2.5px solid #073642; }
 
 icons {
   width: 500px;
@@ -58,7 +62,7 @@ icons {
 }
 
 i {
-  color: #002b36;
+  color: #eee8d5;
   font-family: icons;
   font-size: 150px;
   font-weight: normal;
@@ -69,7 +73,7 @@ i {
 
 icons h2 {
   margin: 0 0 8px;
-  color: #002b36;
+  color: #eee8d5;
   font-size: 55px;
   font-weight: 300;
   text-align: center;
@@ -83,7 +87,7 @@ icons ul {
 }
 
 icons li {
-  background: #002b36;
+  background: #eee8d5;
   background: rgba(255,255,255,0.90);
   padding: 20px;
   display: inline-block;
